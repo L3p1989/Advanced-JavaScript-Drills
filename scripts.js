@@ -24,6 +24,18 @@ function findAvg(a, b) {
 };//end of hoisting exercise
 
 //beginning of scope exercise
-fruits ['Peaches', 'apples', 'blueberries'];
+let fruits = ['Peaches', 'apples', 'blueberries'];
 
-favFruit();
+
+
+function showFruits() {
+    let favFruit = fruits[0];
+    console.log(fruits[0]);
+};
+
+function showFav() {
+    console.log(favFruit)
+}
+
+showFruits();
+showFav();
