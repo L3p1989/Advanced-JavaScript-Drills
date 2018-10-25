@@ -41,3 +41,9 @@ function showFruits() {
 };
 
 showFruits();
+
+helloName();
+
+function helloName() {
+    console.log('Hello ' + name + '!')
+}
