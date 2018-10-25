@@ -46,4 +46,10 @@ helloName();
 
 function helloName() {
     console.log('Hello ' + name + '!')
-}
+};
+
+randomFun();
+
+let randomFun = function() {
+    alert('randomFun is working')
+};
