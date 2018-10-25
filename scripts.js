@@ -21,4 +21,9 @@ function findAvg(a, b) {
     console.log('3rd test');
     var answer = (a + b) / 2;
     return answer;
-};
+};//end of hoisting exercise
+
+//beginning of scope exercise
+fruits ['Peaches', 'apples', 'blueberries'];
+
+favFruit();
