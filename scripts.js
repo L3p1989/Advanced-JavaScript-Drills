@@ -35,10 +35,9 @@ function showFruits() {
     function showFav() {
         console.log(favFruit)
     }
+    let leastFav = fruits[1]
+
+    console.log(leastFav)
 };
 
-console.log(leastFav)
-
 showFruits();
-
-let leastFav = fruits[2]
