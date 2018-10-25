@@ -1,5 +1,12 @@
-name = 'Patrick'
+name = 'Patrick';
 
-let name;
+var name;
 
-console.log(name)
+console.log(name);
+
+setName();
+
+function setName() {
+    var name = 'Patrick Hogan';
+    console.log(name);
+}
