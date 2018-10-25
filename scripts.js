@@ -9,4 +9,16 @@ setName();
 function setName() {
     var name = 'Patrick Hogan';
     console.log(name);
-}
+};
+
+console.log('1st test')
+
+let avg = findAvg(2, 2);
+
+console.log('2nd test')
+
+function findAvg(a, b) {
+    console.log('3rd test');
+    var answer = (a + b) / 2;
+    return answer;
+};
