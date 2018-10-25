@@ -37,4 +37,8 @@ function showFruits() {
     }
 };
 
+console.log(leastFav)
+
 showFruits();
+
+let leastFav = fruits[2]
