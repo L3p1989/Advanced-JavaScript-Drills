@@ -31,11 +31,10 @@ let fruits = ['Peaches', 'apples', 'blueberries'];
 function showFruits() {
     let favFruit = fruits[0];
     console.log(fruits[0]);
+    showFav();
+    function showFav() {
+        console.log(favFruit)
+    }
 };
 
-function showFav() {
-    console.log(favFruit)
-}
-
 showFruits();
-showFav();
